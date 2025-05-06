@@ -28,7 +28,7 @@ export function runRadialTransition(rocketBoxEl, overlayEls, callback) {
     defaults: { duration: 0.5, ease: 'power2.inOut' },
     onComplete: callback,
   })
-    .to(overlayEls[0], { scale: 12 }, 0)
-    .to(overlayEls[1], { scale: 14 }, 0.15)
-    .to(overlayEls[2], { scale: 16 }, 0.3);
-}
+    .to(overlayEls[0], { scale: 20 }, 0)
+    .to(overlayEls[1], { scale: 25 }, 0.15)
+    .to(overlayEls[2], { scale: 30 }, 0.3);
+}  

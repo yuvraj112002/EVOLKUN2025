@@ -191,31 +191,6 @@ align-items: center;
     transform: scale(1) rotate(0);
   }
 }
-/* Whimsical Button */
-.seeMoreButton {
-  background: #eaeaea;
-  border: 1px solid #cbcbcb ;
-  padding: 0.8rem 1.5rem;
-  border-radius: 50px;
-  font-family: var(--font-fun);
-  font-size: 1rem;
-  color: var(--color-dark);
-  cursor: pointer;
-  margin: 0.2rem auto 0;
-  margin-bottom: 6%;
-  display: block;
-  transition: all 0.3s ease;
-  //box-shadow: 0 3px 10px rgba(239, 239, 239, 0.11);
-  
-  &:hover {
-    transform: translateY(-3px) rotate(2deg);
-    box-shadow: 0 5px 15px rgba(216, 231, 255, 0.6);
-  }
-  
-  &:active {
-    transform: translateY(1px) rotate(-1deg);
-  }
-}
 
 /* Floating Emoji Decorations */
 .formContainer::after {
@@ -348,5 +323,30 @@ align-items: center;
   
   .subHeading {
     font-size: 1.2rem;
+  }
+}
+
+
+
+
+.showMoreButton {
+  margin-top: 2rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+   /* ✅ Center the button */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+  &:hover {
+    background-color: #444;
   }
 }
